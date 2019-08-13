@@ -22,7 +22,7 @@ public interface BookDAO {
      void update(Book book);
 
     @Delete
-    void delte(Book book);
+    void delete(Book book);
 
     @Query("SELECT * FROM books_table")
     LiveData<List<Book>> getAllBooks();
